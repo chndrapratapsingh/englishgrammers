@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background: #bed6e8e8;
+  height: 100px;
+  box-shadow: 2px 5px 8px 3px #cacacaff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+header img{
+  box-shadow: 2px 5px 5px 1px gray;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+header h1{
+  letter-spacing: 1rem;
+  font-family: Times New Roman;
+  text-align: center;
+}
+header ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 4rem;
+}
+header ul li{
+  padding: 5px;
+}
+header ul li:hover{
+  color: blue;
+   cursor: pointer;
+}
+#list{
+  background-color: #bfbfbfcf;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#list a{
+  font-family: Tahoma;
+  text-decoration: none;
+  color: #4b4b4bff;
+}
+#list h3:hover{
+   text-decoration: underline;
+   color: blue;
+   cursor: pointer;
+}
+#main{
+  background-image: url("#");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+#main h2{
+  font-size: 8rem;
+  font-family: Verdana;
+}
+#main h3{
+  font-family: Georgia;
+  padding-top:10px ;
+  letter-spacing: 3px;
+}
+#Tense,#story{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  font-size: 18px;
+  font-family: Georgia;
+}
+.color{
+  color:#eccb1cff;
+  font-size: 3rem;
+}
+.color2{
+  color: #0e21e7ff;
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.color3{
+  color: #f70808ee;
+  font-size: 20px;
+  font-weight: 5px;
+}
+.one{
+  background-color:#e9f722ff ;
+  border-radius: 5px;
+}
+.two{
+  background-color: #08b6e2d7;
+    border-radius: 5px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.content,#mian2{
+  font-size: 25px;
+  text-align: justify;
+  padding: 15px;
+}
+#text{
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-top:50px ;
+  justify-content: space-between;
+}
+#main2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+}
+.unorder{
+  margin: 15px;
+}
